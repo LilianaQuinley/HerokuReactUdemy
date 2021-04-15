@@ -3,7 +3,7 @@ const express = require ('express');
 const app = express();
 
 app.get('/', (req,res) => {
-    res.send({Hello: "Heroku application API" })
+    res.send({Hello: "Heroku  API" })
 });
 
 
